@@ -1,6 +1,6 @@
 # Platform specific configuration
 MY_CMAKE := /mnt/c/Program\ Files/CMake/bin/cmake.exe
-MY_TOOLCHAIN := $(realpath toolchain.cmake)
+MY_TOOLCHAIN := toolchain.cmake
 
 
 # General project build configuration
