@@ -14,7 +14,7 @@ all: $(PROJ_NAME)
 configure:
 	mkdir -p build
 	$(MY_CMAKE) -S . -B build \
-		-DCMAKE_TOOLCHAIN_FILE=$(MY_TOOLCHAIN) \
+		-DCMAKE_TOOLCHAIN_FILE=$(MY_TOOLCHAIN)
 
 
 # CMake build step
